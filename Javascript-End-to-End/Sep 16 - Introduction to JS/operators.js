@@ -21,7 +21,7 @@ x %= 2; // x = x % 2
 // logical operators
 console.log((10 > 5) && (7 < 6));
 console.log((10 > 5) || (7 < 6));
-console.log(4 && 0); // 0
+console.log(4 && 0); // 0 => 10 + 00 => 00 (use the normal AND operator)
 console.log(4 || 0); // 4
 console.log(0 && 4); // 0
 console.log(0 || 4); // 4
